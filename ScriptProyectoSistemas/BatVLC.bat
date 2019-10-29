@@ -16,19 +16,20 @@ set /p opcion="Escribe el numero de una de las opciones propuestas: "
 cls
 goto menu%opcion%
 
-:menu%opcion%
+:menu1
 set /p nombrecarpeta="Escribe el nombre de la carpeta donde se guardaran las canciones: "
 set ruta=%userprofile%\Desktop\"%nombrecarpeta%"
-md %ruta%\%nombrecarpeta%
-copy
+md %ruta%
+xcopy ..\..\vlc-random-playlist\ScriptProyectoSistemas\Canciones\*.mp3 %userprofile%\Desktop\"%nombrecarpeta%"
+cls
+dir %ruta%
 goto :mensaje
 
-:menu%opcion%
-start C:\"Program Files (x86)"\VideoLAN\VLC\vlc.exe
-CODIGO
+:menu2
+"C:\"Program Files (x86)"\VideoLAN\VLC\vlc.exe" %ruta%\
 goto :mensaje
 
-:menu%opcion%
+:menu3
 exit
 
 :mensaje
