@@ -7,22 +7,29 @@ echo -----------------------------------------------
 echo.
 echo    1.- Generar estructura de carpetas y colocar las canciones en dicha carpeta (Se creara en tu escritorio).
 echo    2.- Ejecutar las canciones con el programa VLC.
+echo    3.- Salir
 echo.
 echo -----------------------------------------------
 echo.
 set /p opcion="Escribe el numero de una de las opciones propuestas: "
 
 cls
-goto %opcion%
+goto menu%opcion%
 
-:1
-CODIGO
+:menu%opcion%
+set /p nombrecarpeta="Escribe el nombre de la carpeta donde se guardaran las canciones: "
+set ruta=%userprofile%\Desktop\"%nombrecarpeta%"
+md %ruta%\%nombrecarpeta%
+copy
 goto :mensaje
 
-:2
+:menu%opcion%
 start C:\"Program Files (x86)"\VideoLAN\VLC\vlc.exe
 CODIGO
 goto :mensaje
+
+:menu%opcion%
+exit
 
 :mensaje
 echo Presiona una tecla para continuar
