@@ -18,15 +18,17 @@ goto menu%opcion%
 
 :menu1
 set /p nombrecarpeta="Escribe el nombre de la carpeta donde se guardaran las canciones: "
-set ruta=%userprofile%\Desktop\"%nombrecarpeta%"
-md %ruta%
-xcopy ..\..\vlc-random-playlist\ScriptProyectoSistemas\Canciones\*.mp3 %userprofile%\Desktop\"%nombrecarpeta%"
+echo %nombrecarpeta%
+set ruta=%userprofile%\Desktop\%nombrecarpeta%
+echo %ruta%
+md "%ruta%"
+xcopy ..\..\proyectovlc\ScriptProyectoSistemas\Canciones\*.mp3 %userprofile%\Desktop\"%nombrecarpeta%"
 cls
-dir %ruta%
 goto :mensaje
 
 :menu2
-"C:\"Program Files (x86)"\VideoLAN\VLC\vlc.exe" %ruta%\
+set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
+%vlc% "%ruta%"\kda_popstars.mp3
 goto :mensaje
 
 :menu3
@@ -34,6 +36,6 @@ exit
 
 :mensaje
 echo Presiona una tecla para continuar
-pause > Null
+pause > Nul
 goto menu
 
