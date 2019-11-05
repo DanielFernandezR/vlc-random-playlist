@@ -25,6 +25,7 @@ echo %ruta%
 md "%ruta%"
 xcopy ..\..\proyectovlc\ScriptProyectoSistemas\Canciones\*.mp3 %userprofile%\Desktop\"%nombrecarpeta%"
 cls
+dir %ruta%
 goto :mensaje
 
 :menu2
