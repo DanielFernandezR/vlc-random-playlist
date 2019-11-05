@@ -61,7 +61,7 @@ goto :mensaje
 
 :menu3
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-%vlc% -Z "%ruta%"\
+%vlc% -ZL "%ruta%"\
 echo Se esta reproduciendo la lista aleatoria...
 goto :mensaje
 
