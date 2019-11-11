@@ -7,7 +7,7 @@ echo -----------------------------------------------
 echo.
 echo    1.- Generar estructura de carpetas y colocar las canciones en dicha carpeta (Se creara en tu escritorio).
 echo    2.- Elegir una cancion
-echo    3.- Iniciar reproduccion aleatoria de todas las canciones (Repeticion/Bucle lista activado)
+echo    3.- Iniciar reproduccion aleatoria de todas las canciones
 echo    4.- Salir
 echo.
 echo -----------------------------------------------
@@ -19,13 +19,11 @@ goto menu%opcion%
 
 :menu1
 set /p nombrecarpeta="Escribe el nombre de la carpeta donde se guardaran las canciones: "
-echo %nombrecarpeta%
 set ruta=%userprofile%\Desktop\%nombrecarpeta%
-echo %ruta%
 md "%ruta%"
-xcopy ..\..\proyectovlc\ScriptProyectoSistemas\Canciones\*.mp3 %userprofile%\Desktop\"%nombrecarpeta%"
+xcopy Canciones\*.mp3 %userprofile%\Desktop\"%nombrecarpeta%"
 cls
-dir %ruta%
+dir /B "%ruta%"
 goto :mensaje
 
 :menu2
@@ -47,51 +45,57 @@ goto genero%generonum%
 :genero1
 echo.
 echo -----------------------------------------------------------------
-dir %ruta%\*.mp3 | find "e_0"
+dir /B "%ruta%"\*.mp3 | find "e_0"
 echo -----------------------------------------------------------------
 echo.
 set /p numcancion="Elige el numero de la cancion: "
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-%vlc% "%ruta%"\e_0%numcancion%_*.mp3
+for /f %%I in ('dir /b "%ruta%"\"e_0%numcancion%_*.mp3"') do %vlc% --qt-start-minimized "%ruta%"\%%I
 goto :mensaje
 
 :genero2
 echo.
 echo -----------------------------------------------------------------
-dir %ruta%\*.mp3 | find "m_0"
+dir /B "%ruta%"\*.mp3 | find "m_0"
 echo -----------------------------------------------------------------
 echo.
 set /p numcancion="Elige el numero de la cancion: "
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-%vlc% "%ruta%"\m_0%numcancion%_*.mp3
+for /f %%I in ('dir /b "%ruta%"\"m_0%numcancion%_*.mp3"') do %vlc% --qt-start-minimized "%ruta%"\%%I
 goto :mensaje
 
 :genero3
 echo.
 echo -----------------------------------------------------------------
-dir %ruta%\*.mp3 | find "r_0"
+dir /B "%ruta%"\*.mp3 | find "r_0"
 echo -----------------------------------------------------------------
 echo.
 set /p numcancion="Elige el numero de la cancion: "
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-%vlc% "%ruta%"\r_0%numcancion%_*.mp3
+for /f %%I in ('dir /b "%ruta%"\"r_0%numcancion%_*.mp3"') do %vlc% --qt-start-minimized "%ruta%"\%%I
 goto :mensaje
 
 :genero4
 echo.
 echo -----------------------------------------------------------------
-dir %ruta%\*.mp3 | find "rt_0"
+dir /B "%ruta%"\*.mp3 | find "rt_0"
 echo -----------------------------------------------------------------
 echo.
 set /p numcancion="Elige el numero de la cancion: "
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-%vlc% "%ruta%"\rt_0%numcancion%_*.mp3
+for /f %%I in ('dir /b "%ruta%"\"rt_0%numcancion%_*.mp3"') do %vlc% --qt-start-minimized "%ruta%"\%%I
 goto :mensaje
 
 :menu3
+set /p repetir="Quieres repetir la lista indefinidamente (S/N) ? " 
+goto %repetir%
+:S
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-%vlc% -ZL "%ruta%"\
-echo Se esta reproduciendo la lista aleatoria...
+%vlc% -ZL --qt-start-minimized "%ruta%"\
+goto :mensaje
+:N
+set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
+%vlc% -Z --qt-start-minimized "%ruta%"\
 goto :mensaje
 
 :menu4
