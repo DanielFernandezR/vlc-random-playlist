@@ -7,6 +7,7 @@ def check_XML(archivoXML):
         print("El nombre del archivo XML no es correcto.")
     except XML.etree.ElementTree.ParseError:
         print("El archivo XML está mal formado.")
+        pass
     else:
         raiz = arbol.getroot()
         return raiz

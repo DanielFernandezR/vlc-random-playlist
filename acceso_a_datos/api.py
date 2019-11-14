@@ -15,4 +15,4 @@ def get_name_dict(archivo_XML):
 
 if __name__ == "__main__":
 
-    assert get_name_dict("library.xml") == dict
+    assert get_name_dict("library.xml") == True
