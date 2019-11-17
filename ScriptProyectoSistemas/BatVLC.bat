@@ -21,10 +21,13 @@ goto menuglobal%opcion%
 :menuglobal1
 set /p nombrecarpeta="Escribe el nombre de la carpeta donde se guardaran las canciones: "
 set ruta=%userprofile%\Desktop\%nombrecarpeta%
-md "%ruta%"
-xcopy Canciones\*.mp3 %userprofile%\Desktop\"%nombrecarpeta%"
-xcopy Canciones\*.mp4 %userprofile%\Desktop\"%nombrecarpeta%"
+md "%ruta%"\Subtitulos
+copy Canciones\* "%ruta%"
+copy Canciones\Subtitulos\* "%ruta%"\Subtitulos
+rem Creamos la estructura de carpetas que vamos a usar en este .bat en el escritorio y añadimos los archivos a dichas carpetas
+ (Carpeta con las canciones y videos/Subtitulos de video)
 cls
+
 dir /B "%ruta%"
 goto :mensaje
 
@@ -57,6 +60,7 @@ set /p generonum="Escribe el numero de una de las opciones propuestas: "
 
 cls
 goto genero%generonum%
+rem Una vez elegido el genero y el numero de la cancion, se reproducirá el VLC minimizado con la canción elegida.
 
 :genero1
 echo.
@@ -67,7 +71,9 @@ echo.
 set /p numcancion="Elige el numero de la cancion: "
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 for /f %%I in ('dir /b "%ruta%"\"e_0%numcancion%_*.mp3"') do %vlc% --qt-start-minimized "%ruta%"\%%I
+rem Muestrá las canciones correspondientes a ese genero y ejecuta la que tenga en el nombre el numero escrito anteriormente
 goto :mensajemusica
+
 
 :genero2
 echo.
@@ -112,7 +118,9 @@ goto :mensajemusica
 :bucleN
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 %vlc% -Z --qt-start-minimized "%ruta%"\
+rem Eliges si quieres que la lista aleatoria sea en bucle y nunca termine o no, gracias al atributo -L (bucle) y -Z (Random)
 goto :mensajemusica
+
 
 :menuglobal3
 echo -----------------------------------------------
@@ -122,7 +130,7 @@ echo.
 echo    1.- Ejecutar video en pantalla completa
 echo    2.- Ejecutar video en videowall
 echo    3.- Ejecutar video a partir de un minuto y acabar en otro minuto
-echo    4.- Insertar subtitulos a video (Elige el archivo que lo contiene)
+echo    4.- Insertar subtitulos a video
 echo.
 echo -----------------------------------------------
 set /p videonum="Escribe el numero de una de las opciones propuestas: "
@@ -133,6 +141,7 @@ goto menuvideo%videonum%
 :menuvideo1
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 %vlc% -f "%ruta%"\Video_True_Damage.mp4
+rem Eliges un video y lo muestras en pantalla completa gracias al atributo -f
 goto :mensaje
 
 :menuvideo2
@@ -148,6 +157,7 @@ echo -----------------------------------------------
 set /p wall="Escribe el numero de una de las opciones propuestas: "
 echo.
 cls
+rem Muestras el video en videowall (en partes como un puzzle) gracias a los atributos (--wall-rows= --wall-cols= --video-splitter wall --wall-active=)
 goto videowall%wall%
 
 :videowall1
@@ -170,10 +180,14 @@ set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 set /p inicio="Elige el segundo en el cual quieres que empiece el video: "
 set /p final="Elige el segundo en el cual quieres que acabe el video: "
 %vlc% --start-time=%inicio% --stop-time=%final% "%ruta%"\Video_True_Damage.mp4
+rem Eliges en que segundo empieza y termina la cancion gracias al atributo (--start-time= y --stop-time=)
 goto :mensaje
 
 :menuvideo4
-
+set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
+%vlc% --sub-file="%ruta%"\Subtitulos\Nacho_Yandel_Bad_Bunny_-_Bilame_Remix.srt "%ruta%"\Nacho_Yandel_Bad_Bunny_-_Bilame_Remix.mp4
+rem Iniciamos un video con sus subtitulos correspondientes asociados al archivo en la carpeta Canciones/Subtitulos.
+goto :mensaje
 
 :menuglobal4
 echo -----------------------------------------------
@@ -192,24 +206,29 @@ goto menuwebcam%webcamnum%
 :menuwebcam1
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 %vlc% dshow://
+rem Iniciamos la webcam desde el VLC
 goto :mensaje
 
 :menuwebcam2
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 %vlc% dshow:// --wall-rows=2 --wall-cols=2 --video-splitter wall --wall-active=0,1,2,3
+rem Iniciamos la webcam desde el VLC en videowall (puzzle)
 goto :mensaje
 
 :menuglobal5
+rem Salimos del .bat
 exit
 
 :mensaje
 echo Presiona una tecla para volver al menu...
+rem Mensaje para volver al menu principal después de hacer una de las opciones del programa
 pause > Nul
 cls
 goto menu
 
 :mensajemusica
 echo La reproduccion de la musica ha terminado, presiona una tecla para continuar...
+rem Mensaje para volver al menu principal después de ejecutar una canción o una lista de canciones (menumusica)
 pause > Nul
 cls
 goto menu
