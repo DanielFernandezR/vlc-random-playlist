@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 
-def check_XML(archivoXML):
+
+def check_XML():
     try:
         arbol = ET.parse('library.xml')
     except FileNotFoundError:
@@ -11,10 +12,3 @@ def check_XML(archivoXML):
     else:
         raiz = arbol.getroot()
         return raiz
-
-
-if __name__ == "__main__":
-
-    assert check_XML('library.xml') == True   
-
-    

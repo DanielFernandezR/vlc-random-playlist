@@ -1,8 +1,9 @@
 from check_XML import check_XML
 
-def get_name_dict(archivo_XML):
-    raiz = check_XML(archivo_XML)
+
+def get_name_dict():
     diccionario = {}
+    raiz = check_XML()
     for canciones in raiz:
         for cancion in canciones:
             nombre_ruta = {}
@@ -10,9 +11,3 @@ def get_name_dict(archivo_XML):
             diccionario.update(nombre_ruta)
     assert len(diccionario) == 20
     return diccionario
-    
-
-
-if __name__ == "__main__":
-
-    assert get_name_dict("library.xml") == True
