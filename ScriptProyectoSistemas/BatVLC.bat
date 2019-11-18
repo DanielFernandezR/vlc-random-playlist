@@ -24,7 +24,7 @@ set ruta=%userprofile%\Desktop\%nombrecarpeta%
 md "%ruta%"\Subtitulos
 copy Canciones\* "%ruta%"
 copy Canciones\Subtitulos\* "%ruta%"\Subtitulos
-rem Creamos la estructura de carpetas que vamos a usar en este .bat en el escritorio y aÃ±adimos los archivos a dichas carpetas
+rem Creamos la estructura de carpetas que vamos a usar en este .bat en el escritorio y añadimos los archivos a dichas carpetas
  (Carpeta con las canciones y videos/Subtitulos de video)
 cls
 
@@ -60,7 +60,7 @@ set /p generonum="Escribe el numero de una de las opciones propuestas: "
 
 cls
 goto genero%generonum%
-rem Una vez elegido el genero y el numero de la cancion, se reproducirÃ¡ el VLC minimizado con la canciÃ³n elegida.
+rem Una vez elegido el genero y el numero de la cancion, se reproducirá el VLC minimizado con la canción elegida.
 
 :genero1
 echo.
@@ -71,7 +71,7 @@ echo.
 set /p numcancion="Elige el numero de la cancion: "
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 for /f %%I in ('dir /b "%ruta%"\"e_0%numcancion%_*.mp3"') do %vlc% --qt-start-minimized "%ruta%"\%%I
-rem MuestrÃ¡ las canciones correspondientes a ese genero y ejecuta la que tenga en el nombre el numero escrito anteriormente
+rem Muestrá las canciones correspondientes a ese genero y ejecuta la que tenga en el nombre el numero escrito anteriormente
 goto :mensajemusica
 
 
@@ -142,6 +142,7 @@ goto menuvideo%videonum%
 set vlc="C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
 %vlc% -f "%ruta%"\Video_True_Damage.mp4
 rem Eliges un video y lo muestras en pantalla completa gracias al atributo -f
+rem He añadido un archivo .srt en la carpeta de las canciones para comprobar que se abre directamente el archivo de los subtitulos al abrir el vídeo en cuestión con el mismo nombre ambos.
 goto :mensaje
 
 :menuvideo2
@@ -221,14 +222,14 @@ exit
 
 :mensaje
 echo Presiona una tecla para volver al menu...
-rem Mensaje para volver al menu principal despuÃ©s de hacer una de las opciones del programa
+rem Mensaje para volver al menu principal después de hacer una de las opciones del programa
 pause > Nul
 cls
 goto menu
 
 :mensajemusica
 echo La reproduccion de la musica ha terminado, presiona una tecla para continuar...
-rem Mensaje para volver al menu principal despuÃ©s de ejecutar una canciÃ³n o una lista de canciones (menumusica)
+rem Mensaje para volver al menu principal después de ejecutar una canción o una lista de canciones (menumusica)
 pause > Nul
 cls
 goto menu
