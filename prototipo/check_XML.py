@@ -13,6 +13,5 @@ def check_XML():
         raiz = arbol.getroot()
         return raiz
 
-
 if __name__ == "__main__":
     assert check_XML() == True
