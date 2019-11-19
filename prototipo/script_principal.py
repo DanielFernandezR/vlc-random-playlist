@@ -1,9 +1,7 @@
-from random_playlist_generator import generate_random_list_path_song
+from execute_vlc import ejecuta_vlc
 
 
-def iniciar_vlc():
-    lista_aleatoria = generate_random_list_path_song()
-    return lista_aleatoria
+def iniciar_proyecto():
+    ejecuta_vlc()
 
-
-print(iniciar_vlc())
+iniciar_proyecto()
