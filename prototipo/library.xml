@@ -10,7 +10,7 @@
             <name>e_01_Betty_Boop.mp3</name>
             <miliseconds>360000</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4194304</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\e_01_Betty_Boop.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -51,7 +51,7 @@
             <name>e_02_Waiting_For_Love.mp3</name>
             <miliseconds>289485</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4230541</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\e_02_Waiting_For_Love.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -92,7 +92,7 @@
             <name>e_03_Animals.mp3</name>
             <miliseconds>378200</miliseconds> <!-- Es la duración de la canción -->
             <bytes>3987258</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\e_03_Animals.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -133,7 +133,7 @@
             <name>e_04_Beautiful_Now.mp3</name>
             <miliseconds>486258</miliseconds> <!-- Es la duración de la canción -->
             <bytes>3258716</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\e_04_Beautiful_Now.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -174,7 +174,7 @@
             <name>e_05_Find_You.mp3</name>
             <miliseconds>289542</miliseconds> <!-- Es la duración de la canción -->
             <bytes>3876504</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\e_05_Find_You.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -215,7 +215,7 @@
             <name>m_01_Hail_to_the_King.mp3</name>
             <miliseconds>503678</miliseconds> <!-- Es la duración de la canción -->
             <bytes>5978423</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\m_01_Hail_to_the_King.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -256,7 +256,7 @@
             <name>m_02_The_Sound_Of_Silence.mp3</name>
             <miliseconds>452698</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4268423</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\m_02_The_Sound_Of_Silence.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -297,7 +297,7 @@
             <name>m_03_Through_the_Fire_and_Flames.mp3</name>
             <miliseconds>483678</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4689423</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\m_03_Through_the_Fire_and_Flames.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -338,7 +338,7 @@
             <name>m_04_One.mp3</name>
             <miliseconds>398456</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4325813</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\m_04_One.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -379,7 +379,7 @@
             <name>m_05_Psychosocial.mp3</name>
             <miliseconds>314762</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4652341</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\m_05_Psychosocial.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -420,7 +420,7 @@
             <name>r_01_I_Write_Sins_Not_Tragedies.mp3</name>
             <miliseconds>258456</miliseconds> <!-- Es la duración de la canción -->
             <bytes>3985813</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\r_01_I_Write_Sins_Not_Tragedies.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -461,7 +461,7 @@
             <name>r_02_Thousand_Foot_Krutch.mp3</name>
             <miliseconds>348456</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4256378</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\r_02_Thousand_Foot_Krutch.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -502,7 +502,7 @@
             <name>r_03_My_Demons.mp3</name>
             <miliseconds>456812</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4685214</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\r_03_My_Demons.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -543,7 +543,7 @@
             <name>r_04_so_Far_Away.mp3</name>
             <miliseconds>520000</miliseconds> <!-- Es la duración de la canción -->
             <bytes>5820369</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\r_04_so_Far_Away.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -584,7 +584,7 @@
             <name>r_05_Nightmare.mp3</name>
             <miliseconds>485000</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4625109</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\r_05_Nightmare.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -625,7 +625,7 @@
             <name>rt_01_runaway.mp3</name>
             <miliseconds>452030</miliseconds> <!-- Es la duración de la canción -->
             <bytes>3875640</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\rt_01_runaway.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -666,7 +666,7 @@
             <name>rt_02_Date_La_Vuelta.mp3</name>
             <miliseconds>378900</miliseconds> <!-- Es la duración de la canción -->
             <bytes>3254610</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\rt_02_Date_La_Vuelta.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -707,7 +707,7 @@
             <name>rt_03_Que_Tire_Pa'Lante.mp3</name>
             <miliseconds>312610</miliseconds> <!-- Es la duración de la canción -->
             <bytes>3658740</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\rt_03_Que_Tire_Pa'Lante.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -748,7 +748,7 @@
             <name>rt_04_Con_Calma.mp3</name>
             <miliseconds>386247</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4568720</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\rt_04_Con_Calma.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -789,7 +789,7 @@
             <name>rt_05_No_Me_Conoce.mp3</name>
             <miliseconds>423100</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4647820</bytes>
-            <path>C:\Users\Dual\Music\Bohemian_Rhapsody.mp4</path>
+            <path>script_proyecto_sistemas\Canciones\rt_05_No_Me_Conoce.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>

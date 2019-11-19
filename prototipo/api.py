@@ -1,7 +1,7 @@
 from check_XML import check_XML
 
 
-def get_name_dict():
+def get_name_and_path_dict():
     diccionario = {}
     raiz = check_XML()
     for canciones in raiz:

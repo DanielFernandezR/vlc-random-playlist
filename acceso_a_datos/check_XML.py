@@ -12,7 +12,3 @@ def check_XML():
     else:
         raiz = arbol.getroot()
         return raiz
-
-
-if __name__ == "__main__":
-    assert check_XML() == True

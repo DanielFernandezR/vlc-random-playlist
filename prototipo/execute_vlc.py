@@ -1,10 +1,10 @@
-import os
 import subprocess
-
+from random_playlist_generator import generate_random_list_path_song
 
 def ejecuta_vlc():
-    ruta_vlc = r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
-    ruta_cancion = r"C:\Users\Dual\Desktop\Trabajos\proyectovlc\ScriptProyectoSistemas\Canciones\e_05_Find_You.mp3"
+
+    ruta_vlc = r"E:\VLC\vlc.exe"
+    ruta_cancion = r" ".join(generate_random_list_path_song())
     subprocess.Popen([ruta_vlc, ruta_cancion])
 
 
