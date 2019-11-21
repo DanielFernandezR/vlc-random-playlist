@@ -1,7 +1,8 @@
-from execute_vlc import ejecuta_vlc
+from prueba_ejecutar_vlc.execute_vlc import ejecuta_vlc
 
 
 def iniciar_proyecto():
     ejecuta_vlc()
+
 
 iniciar_proyecto()

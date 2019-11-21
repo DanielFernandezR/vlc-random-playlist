@@ -1,4 +1,4 @@
-from check_XML import check_XML
+from prueba_acceso_a_datos.check_XML import check_XML
 
 
 def get_name_and_path_dict():
