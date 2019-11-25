@@ -1,7 +1,7 @@
 from prueba_acceso_a_datos.check_XML import check_XML
 
 
-def contar_canciones_diccionario():
+def contar_canciones_xml():
     raiz = check_XML()
     num_canciones = 0
     for canciones in raiz:
