@@ -1,11 +1,12 @@
+import os
 import subprocess
 from prueba_logica_proyecto.juntar_dos_listas import fusion_listas
 
 
 def ejecuta_vlc():
-    ruta_vlc = r"‪E:\VLC\vlc.exe"
+    ruta_vlc = "‪‪C:\Program Files (x86)\VideoLAN\VLC\vlc.exe"
     ruta_cancion = " ".join(fusion_listas())
 
-    ejecutar = subprocess.call('"' + ruta_vlc + '"' + ' ' + ruta_cancion, shell=True)
-
+    #añadir_path = subprocess.Popen("set PATH=" + os.environ["PATH"] + ";C:\Program Files (x86)\VideoLAN\VLC\;")
+    ejecutar = subprocess.Popen(r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe " + ruta_cancion)        
     return ejecutar
