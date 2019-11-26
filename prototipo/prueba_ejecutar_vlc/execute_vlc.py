@@ -8,5 +8,5 @@ def ejecuta_vlc():
     ruta_cancion = " ".join(fusion_listas())
 
     #añadir_path = subprocess.Popen("set PATH=" + os.environ["PATH"] + ";C:\Program Files (x86)\VideoLAN\VLC\;")
-    ejecutar = subprocess.Popen(r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe " + ruta_cancion)        
+    ejecutar = subprocess.Popen(r"C:\Program Files (x86)\VideoLAN\VLC\vlc.exe " + ruta_cancion)
     return ejecutar
