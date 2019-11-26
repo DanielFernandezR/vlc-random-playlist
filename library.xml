@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+<!--Nombre asignatura: Lenguaje de Marcas-->
+<!--Nombre del trabajo: Tasca 2.2 Creació d'un fitxer XML pel projecte VLC-->
+<!--Nombre del autor: Daniel Fernández Rodríguez y José Jiménez Beltrán-->
+    <tracks> <!-- La estructura de nuestro XML se basa en que dentro de canciones esten 
+                  todas las relaciones con los otros campos (estructura jerarquica) -->
+        <track>
+            <id>1</id>
+            <name>e_01_Betty_Boop.mp3</name>
+            <miliseconds>360000</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4194304</bytes>
+            <path>canciones\e_01_Betty_Boop.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>2</id>
+            <name>e_02_Waiting_For_Love.mp3</name>
+            <miliseconds>289485</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4230541</bytes>
+            <path>canciones\e_02_Waiting_For_Love.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>3</id>
+            <name>e_03_Animals.mp3</name>
+            <miliseconds>378200</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3987258</bytes>
+            <path>canciones\e_03_Animals.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>4</id>
+            <name>e_04_Beautiful_Now.mp3</name>
+            <miliseconds>486258</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3258716</bytes>
+            <path>canciones\e_04_Beautiful_Now.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>5</id>
+            <name>e_05_Find_You.mp3</name>
+            <miliseconds>289542</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3876504</bytes>
+            <path>canciones\e_05_Find_You.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>6</id>
+            <name>m_01_Hail_to_the_King.mp3</name>
+            <miliseconds>503678</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>5978423</bytes>
+            <path>canciones\m_01_Hail_to_the_King.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>2</id>
+                    <name>Metal</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>5</id>
+                    <name>Avenged Sevenfold</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>5</id>
+                    <name>Avenged Sevenfold</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>2</id>
+                    <title>Hail to the King</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>2</id>
+                    <name>Lista Metalera</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>7</id>
+            <name>m_02_The_Sound_Of_Silence.mp3</name>
+            <miliseconds>452698</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4268423</bytes>
+            <path>canciones\m_02_The_Sound_Of_Silence.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>2</id>
+                    <name>Metal</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>6</id>
+                    <name>Disturbed</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>6</id>
+                    <name>Disturbed</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>3</id>
+                    <title>Immortalized</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>2</id>
+                    <name>Lista Metalera</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>8</id>
+            <name>m_03_Through_the_Fire_and_Flames.mp3</name>
+            <miliseconds>483678</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4689423</bytes>
+            <path>canciones\m_03_Through_the_Fire_and_Flames.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>2</id>
+                    <name>Metal</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>7</id>
+                    <name>Dragonforce</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>7</id>
+                    <name>Dragonforce</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>2</id>
+                    <title>Hail to the King</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>2</id>
+                    <name>Lista Metalera</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>9</id>
+            <name>m_04_One.mp3</name>
+            <miliseconds>398456</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4325813</bytes>
+            <path>canciones\m_04_One.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>2</id>
+                    <name>Metal</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>8</id>
+                    <name>Metallica</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>8</id>
+                    <name>Metallica</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>4</id>
+                    <title>And Justice for All</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>2</id>
+                    <name>Lista Metalera</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>10</id>
+            <name>m_05_Psychosocial.mp3</name>
+            <miliseconds>314762</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4652341</bytes>
+            <path>canciones\m_05_Psychosocial.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>2</id>
+                    <name>Metal</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>9</id>
+                    <name>Slipknot</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>9</id>
+                    <name>Slipknot</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>2</id>
+                    <title>Hail to the King</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>2</id>
+                    <name>Lista Metalera</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>11</id>
+            <name>r_01_I_Write_Sins_Not_Tragedies.mp3</name>
+            <miliseconds>258456</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3985813</bytes>
+            <path>canciones\r_01_I_Write_Sins_Not_Tragedies.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>3</id>
+                    <name>Rock</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>10</id>
+                    <name>Panic At The Disco</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>10</id>
+                    <name>Panic At The Disco</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>5</id>
+                    <title>Transmissions</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>3</id>
+                    <name>Rock For All</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>12</id>
+            <name>r_02_Thousand_Foot_Krutch.mp3</name>
+            <miliseconds>348456</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4256378</bytes>
+            <path>canciones\r_02_Thousand_Foot_Krutch.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>3</id>
+                    <name>Rock</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>11</id>
+                    <name>Courtesy Call</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>11</id>
+                    <name>Courtesy Call</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>5</id>
+                    <title>Transmissions</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>3</id>
+                    <name>Rock For All</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>13</id>
+            <name>r_03_My_Demons.mp3</name>
+            <miliseconds>456812</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4685214</bytes>
+            <path>canciones\r_03_My_Demons.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>3</id>
+                    <name>Rock</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>12</id>
+                    <name>Starset</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>12</id>
+                    <name>Starset</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>5</id>
+                    <title>Transmissions</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>3</id>
+                    <name>Rock For All</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>14</id>
+            <name>r_04_so_Far_Away.mp3</name>
+            <miliseconds>520000</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>5820369</bytes>
+            <path>canciones\r_04_so_Far_Away.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>3</id>
+                    <name>Rock</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>5</id>
+                    <name>Avenged Sevenfold</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>5</id>
+                    <name>Avenged Sevenfold</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>6</id>
+                    <title>Nightmare</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>3</id>
+                    <name>Rock For All</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>15</id>
+            <name>r_05_Nightmare.mp3</name>
+            <miliseconds>485000</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4625109</bytes>
+            <path>canciones\r_05_Nightmare.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>3</id>
+                    <name>Rock</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>5</id>
+                    <name>Avenged Sevenfold</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>5</id>
+                    <name>Avenged Sevenfold</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>6</id>
+                    <title>Nightmare</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>3</id>
+                    <name>Rock For All</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>16</id>
+            <name>rt_01_runaway.mp3</name>
+            <miliseconds>452030</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3875640</bytes>
+            <path>canciones\rt_01_runaway.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>4</id>
+                    <name>Reggaeton</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>13</id>
+                    <name>Sebastian Yatra</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>13</id>
+                    <name>Sebastian Yatra</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>7</id>
+                    <title>Mix Summer 2019</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>4</id>
+                    <name>Reggaeton for Ever</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>17</id>
+            <name>rt_02_Date_La_Vuelta.mp3</name>
+            <miliseconds>378900</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3254610</bytes>
+            <path>canciones\rt_02_Date_La_Vuelta.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>4</id>
+                    <name>Reggaeton</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>14</id>
+                    <name>Luis Fonsi</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>14</id>
+                    <name>Luis Fonsi</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>7</id>
+                    <title>Mix Summer 2019</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>4</id>
+                    <name>Reggaeton for Ever</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>18</id>
+            <name>rt_03_Que_Tire_Pa'Lante.mp3</name>
+            <miliseconds>312610</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3658740</bytes>
+            <path>canciones\rt_03_Que_Tire_Pa'Lante.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>4</id>
+                    <name>Reggaeton</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>15</id>
+                    <name>Daddy Yankee</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>15</id>
+                    <name>Daddy Yankee</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>7</id>
+                    <title>Mix Summer 2019</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>4</id>
+                    <name>Reggaeton for Ever</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>19</id>
+            <name>rt_04_Con_Calma.mp3</name>
+            <miliseconds>386247</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4568720</bytes>
+            <path>canciones\rt_04_Con_Calma.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>4</id>
+                    <name>Reggaeton</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>15</id>
+                    <name>Daddy Yankee</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>15</id>
+                    <name>Daddy Yankee</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>7</id>
+                    <title>Mix Summer 2019</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>4</id>
+                    <name>Reggaeton for Ever</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>20</id>
+            <name>rt_05_No_Me_Conoce.mp3</name>
+            <miliseconds>423100</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4647820</bytes>
+            <path>canciones\rt_05_No_Me_Conoce.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>4</id>
+                    <name>Reggaeton</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>16</id>
+                    <name>Jhay Cortez</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>16</id>
+                    <name>Jhay Cortez</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>7</id>
+                    <title>Mix Summer 2019</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>4</id>
+                    <name>Reggaeton for Ever</name>
+                </playlist>
+            </playlists>
+        </track>
+    </tracks>
+</library>
