@@ -990,11 +990,134 @@
             </playlists>
         </track>
         <track>
-            <id>24</id>
-            <name>High.mp3</name>
+            <id>25</id>
+            <name>Life.mp3</name>
+            <miliseconds>318940</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3381220</bytes>
+            <path>canciones\Life.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>26</id>
+            <name>Lights.mp3</name>
+            <miliseconds>386140</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4471220</bytes>
+            <path>canciones\Lights.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>27</id>
+            <name>Limitless.mp3</name>
+            <miliseconds>411940</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3993320</bytes>
+            <path>canciones\Limitless.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>28</id>
+            <name>Link.mp3</name>
             <miliseconds>478940</miliseconds> <!-- Es la duración de la canción -->
-            <bytes>4682220</bytes>
-            <path>canciones\High.mp3</path>
+            <bytes>4518820</bytes>
+            <path>canciones\Link.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
@@ -1015,6 +1138,908 @@
                 <composer>
                     <id>2</id>
                     <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>29</id>
+            <name>Lost.mp3</name>
+            <miliseconds>478821</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4511120</bytes>
+            <path>canciones\Lost.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>30</id>
+            <name>Mesmerize.mp3</name>
+            <miliseconds>311940</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3690820</bytes>
+            <path>canciones\Mesmerize.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>31</id>
+            <name>Miles_Away.mp3</name>
+            <miliseconds>466640</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4598721</bytes>
+            <path>canciones\Miles_Away.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>32</id>
+            <name>Nekozilla.mp3</name>
+            <miliseconds>495400</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4622547</bytes>
+            <path>canciones\Nekozilla.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>33</id>
+            <name>Popsicle.mp3</name>
+            <miliseconds>314499</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3362547</bytes>
+            <path>canciones\Popsicle.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>34</id>
+            <name>Puzzle.mp3</name>
+            <miliseconds>319849</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4112547</bytes>
+            <path>canciones\Puzzle.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>35</id>
+            <name>Retrovision.mp3</name>
+            <miliseconds>399849</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3977547</bytes>
+            <path>canciones\Retrovision.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>36</id>
+            <name>Safe_And_Sound.mp3</name>
+            <miliseconds>312849</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4155547</bytes>
+            <path>canciones\Safe_And_Sound.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>37</id>
+            <name>Seven.mp3</name>
+            <miliseconds>412249</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3376547</bytes>
+            <path>canciones\Seven.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>38</id>
+            <name>Shine.mp3</name>
+            <miliseconds>398249</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4456547</bytes>
+            <path>canciones\Shine.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>39</id>
+            <name>Sky_High.mp3</name>
+            <miliseconds>425666</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3665891</bytes>
+            <path>canciones\Sky_High.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>40</id>
+            <name>So_Happy.mp3</name>
+            <miliseconds>428521</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4665891</bytes>
+            <path>canciones\So_Happy.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>41</id>
+            <name>Spectre.mp3</name>
+            <miliseconds>471121</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3951891</bytes>
+            <path>canciones\Spectre.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>42</id>
+            <name>Stronger.mp3</name>
+            <miliseconds>426547</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4001891</bytes>
+            <path>canciones\Stronger.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>43</id>
+            <name>Summer_Tune.mp3</name>
+            <miliseconds>390847</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4172291</bytes>
+            <path>canciones\Summer_Tune.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>44</id>
+            <name>Sunburst.mp3</name>
+            <miliseconds>364557</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3999291</bytes>
+            <path>canciones\Sunburst.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>45</id>
+            <name>Superhero.mp3</name>
+            <miliseconds>316477</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>3127291</bytes>
+            <path>canciones\Superhero.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>46</id>
+            <name>Symbolism.mp3</name>
+            <miliseconds>451477</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4632291</bytes>
+            <path>canciones\Symbolism.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>47</id>
+            <name>The_Light.mp3</name>
+            <miliseconds>398725</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4357141</bytes>
+            <path>canciones\The_Light.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>48</id>
+            <name>Under_Water.mp3</name>
+            <miliseconds>344825</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4127641</bytes>
+            <path>canciones\Under_Water.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>49</id>
+            <name>We_Are.mp3</name>
+            <miliseconds>411825</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4876221</bytes>
+            <path>canciones\We_Are.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>3</id>
+                    <name>Martin Garrix</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Martin Garrix</name>
+                </composer>
+            </composers>
+            <albums>
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists>
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>50</id>
+            <name>Why_We_Lose.mp3</name>
+            <miliseconds>427620</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4031465</bytes>
+            <path>canciones\Why_We_Lose.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>4</id>
+                    <name>Zedd</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Martin Garrix</name>
                 </composer>
             </composers>
             <albums>
