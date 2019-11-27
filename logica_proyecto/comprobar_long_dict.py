@@ -1,8 +1,8 @@
 from acceso_a_datos.check_XML import check_XML
 
 
-def contar_canciones_xml():
-    raiz = check_XML()
+def contar_canciones_xml(RUTA_XML):
+    raiz = check_XML(RUTA_XML)
     num_canciones = 0
 
     for canciones in raiz:

@@ -1,8 +1,8 @@
 from logica_proyecto.crear_lista_path_canciones import crear_lista_path_canciones
 
 
-def fusion_listas():
-    lista_numeros_random, lista_ruta_canciones = crear_lista_path_canciones()
+def fusion_listas(RUTA_XML):
+    lista_numeros_random, lista_ruta_canciones = crear_lista_path_canciones(RUTA_XML)
 
     listas_unidas = sorted(zip(lista_numeros_random, lista_ruta_canciones))
     lista_numeros_random, lista_ruta_canciones = zip(*listas_unidas)

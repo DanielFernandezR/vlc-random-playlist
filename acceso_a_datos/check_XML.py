@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 
-def check_XML():
+def check_XML(RUTA_XML):
     try:
         arbol = ET.parse("library.xml")
     except FileNotFoundError:
