@@ -1,16 +1,13 @@
-from acceso_a_datos.check_XML import check_XML
 from logica_proyecto.comprobar_long_dict import contar_canciones_xml
 
 
-def get_name_and_path_dict(RUTA_XML):
+def get_name_and_path_dict(raiz):
     diccionario = {}
-    raiz = check_XML(RUTA_XML)
-
     for canciones in raiz:
         for cancion in canciones:
             nombre_ruta = {}
             nombre_ruta[cancion.find('name').text] = cancion.find("path").text
             diccionario.update(nombre_ruta)
-
-    assert len(diccionario) == contar_canciones_xml(RUTA_XML)
-    return diccionario
+    num_canciones = contar_canciones_xml(raiz)
+    assert len(diccionario) == num_canciones
+    return diccionario, num_canciones

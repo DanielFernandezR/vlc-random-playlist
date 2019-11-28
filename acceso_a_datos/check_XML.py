@@ -3,7 +3,7 @@ import xml.etree.ElementTree as ET
 
 def check_XML(RUTA_XML):
     try:
-        arbol = ET.parse("library.xml")
+        arbol = ET.parse(RUTA_XML)
     except FileNotFoundError:
         print("El nombre del archivo XML no es correcto.")
         raise
