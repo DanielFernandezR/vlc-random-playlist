@@ -6,10 +6,10 @@ def check_XML(RUTA_XML):
         arbol = ET.parse(RUTA_XML)
     except FileNotFoundError:
         print("El nombre del archivo XML no es correcto.")
-        raise
-    except XML.etree.ElementTree.ParseError:
+        exit()
+    except NameError:
         print("El archivo XML está mal formado.")
-        raise
+        exit()
     else:
         raiz = arbol.getroot()
         return raiz
