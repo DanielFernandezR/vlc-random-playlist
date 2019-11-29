@@ -1,7 +1,7 @@
 from logica_proyecto.crear_num_aleatorio import crear_num_aleatorio
 
 
-def crear_lista_path_canciones(diccionario_canciones, num_canciones):
+def crear_lista_ruta_canciones(diccionario_canciones, num_canciones):
     assert isinstance(diccionario_canciones, dict)
     lista_numeros_random = []
     lista_ruta_canciones = []
