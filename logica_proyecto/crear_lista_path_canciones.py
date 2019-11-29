@@ -12,6 +12,6 @@ def crear_lista_ruta_canciones(diccionario_canciones, num_canciones):
             if num_aleatorio not in lista_num_random:
                 lista_num_random.append(num_aleatorio)
                 lista_ruta_canciones.append(ruta)
-    listas_unidas = sorted(zip(lista_num_random, lista_ruta_canciones))
-    lista_num_random, lista_ruta_canciones = (zip(*listas_unidas))
+    fusion_listas = sorted(zip(lista_num_random, lista_ruta_canciones))
+    lista_num_random, lista_ruta_canciones = (zip(*fusion_listas))
     return " ".join(lista_ruta_canciones)
