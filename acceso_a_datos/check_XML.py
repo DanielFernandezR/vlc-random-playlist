@@ -13,4 +13,4 @@ def check_XML(RUTA_XML):
     else:
         raiz = arbol.getroot()
         return raiz
-        
+    
