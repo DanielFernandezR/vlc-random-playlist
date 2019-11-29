@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
 
-def check_XML(RUTA_XML):
+def crear_raiz_XML(RUTA_XML):
     try:
         arbol = ET.parse(RUTA_XML)
     except FileNotFoundError:
@@ -13,4 +13,3 @@ def check_XML(RUTA_XML):
     else:
         raiz = arbol.getroot()
         return raiz
-    

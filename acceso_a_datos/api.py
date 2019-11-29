@@ -1,4 +1,4 @@
-from logica_proyecto.comprobar_long_dict import contar_canciones_xml
+from acceso_a_datos.comprobar_long_dict import contar_canciones_xml
 
 
 def crear_dicc_nombre_ruta(raiz):
