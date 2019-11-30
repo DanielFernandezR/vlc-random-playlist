@@ -912,7 +912,7 @@
             <name>Forever.mp3</name>
             <miliseconds>411140</miliseconds> <!-- Es la duración de la canción -->
             <bytes>4666520</bytes>
-            <path>canciones\Everybody.mp3</path>
+            <path>canciones\Forever.mp3</path>
             <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
                 <id>1</id>
                 <name>mp3</name>
