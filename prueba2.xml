@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+<!--Nombre asignatura: Lenguaje de Marcas-->
+<!--Nombre del trabajo: Tasca 2.2 Creació d'un fitxer XML pel projecte VLC-->
+<!--Nombre del autor: Daniel Fernández Rodríguez y José Jiménez Beltrán-->
+    <tracks> <!-- La estructura de nuestro XML se basa en que dentro de canciones esten 
+                  todas las relaciones con los otros campos (estructura jerarquica) -->
+        <track>
+            <id>1</id>
+            <name>e_01_Betty_Boop.mp3</name>
+            <miliseconds>360000</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4194304</bytes>
+            <path>canciones\e_01_Betty_Boop.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>1</id>
+                    <name>Charlie Puth</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+        <track>
+            <id>2</id>
+            <name>e_01_Betty_Boop.mp3</name>
+            <miliseconds>289485</miliseconds> <!-- Es la duración de la canción -->
+            <bytes>4230541</bytes>
+            <path>canciones\e_01_Betty_Boop.mp3</path>
+            <media_type> <!-- Es el tipo de archivo de la canción. El id se puede repetir. -->
+                <id>1</id>
+                <name>mp3</name>
+            </media_type>
+            <genres> <!-- Aqui escribimos los generos que la canción tenga. -->
+                <genre>
+                    <id>1</id>
+                    <name>Electro</name>
+                </genre>
+            </genres>
+            <artists> 
+                <artist>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </artist>
+            </artists>
+            <composers>
+                <composer>
+                    <id>2</id>
+                    <name>Avicii</name>
+                </composer>
+            </composers>
+            <albums> <!-- El album puede contener varias canciones -->
+                <album>
+                    <id>1</id>
+                    <title>Spinnin Records Dance</title>
+                </album>
+            </albums>
+            <playlists> <!-- La playlist se puede asociar a muchas canciones y viceversa -->
+                <playlist>
+                    <id>1</id>
+                    <name>Canciones EDM</name>
+                </playlist>
+            </playlists>
+        </track>
+    </tracks>
+</library>
