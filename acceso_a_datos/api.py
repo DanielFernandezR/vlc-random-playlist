@@ -6,11 +6,9 @@ def crear_dicc_nombre_ruta(RUTA_XML):
     try:
         arbol = ET.parse(RUTA_XML)
     except FileNotFoundError:
-        print("El nombre del archivo XML no es correcto.")
-        exit()
+        exit("El nombre del archivo XML no es correcto.")
     except ET.ParseError:
-        print("El archivo XML está mal formado.")
-        exit()
+        exit("El archivo XML está mal formado.")
     else:
         raiz = arbol.getroot()
         diccionario = {}
