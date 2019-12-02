@@ -16,4 +16,4 @@ def test_XML_correcto_y_long_dict_igual_num_canciones_xml():
 
 
 # def test_XML_mal_formado():
-#    assert crear_dicc_nombre_ruta("archivos_xml\\librar.xml") == SystemExit("El archivo XML está mal formado.")
+#    assert crear_dicc_nombre_ruta("archivos_xml\\malformado.xml") == SystemExit("El archivo XML está mal formado.")
