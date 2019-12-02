@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as ET
-from acceso_a_datos.comprobar_long_dict import contar_canciones_xml
+from capas_proyecto.acceso_a_datos.comprobar_long_dict import contar_canciones_xml
 
 
 def crear_dicc_nombre_ruta(RUTA_XML):

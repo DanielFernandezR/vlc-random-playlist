@@ -1,4 +1,4 @@
-from logica_proyecto.crear_string_ruta_canciones import crear_string_ruta_canciones
+from capas_proyecto.logica_proyecto.crear_string_ruta_canciones import crear_string_ruta_canciones
 
 
 def test_generar_string_ruta_canciones():

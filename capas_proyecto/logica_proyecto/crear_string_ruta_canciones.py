@@ -1,4 +1,4 @@
-from logica_proyecto.crear_num_aleatorio import crear_num_aleatorio
+from capas_proyecto.logica_proyecto.crear_num_aleatorio import crear_num_aleatorio
 
 
 def crear_string_ruta_canciones(diccionario_canciones, num_canciones):

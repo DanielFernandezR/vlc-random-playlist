@@ -1,6 +1,6 @@
-from presentacion.ejecutar_vlc import ejecuta_vlc
-from acceso_a_datos.api import crear_dicc_nombre_ruta
-from logica_proyecto.crear_string_ruta_canciones import crear_string_ruta_canciones
+from capas_proyecto.presentacion.ejecutar_vlc import ejecuta_vlc
+from capas_proyecto.acceso_a_datos.api import crear_dicc_nombre_ruta
+from capas_proyecto.logica_proyecto.crear_string_ruta_canciones import crear_string_ruta_canciones
 
 RUTA_XML = "archivos_xml\\library.xml"
 RUTA_VLC = "C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe"

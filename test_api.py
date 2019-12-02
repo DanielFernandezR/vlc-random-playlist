@@ -1,4 +1,4 @@
-from acceso_a_datos.api import crear_dicc_nombre_ruta
+from capas_proyecto.acceso_a_datos.api import crear_dicc_nombre_ruta
 
 
 def test_XML_correcto_y_long_dict_igual_num_canciones_xml():
