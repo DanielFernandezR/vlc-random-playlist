@@ -11,7 +11,7 @@ def ejecuta_vlc(lista_canciones, RUTA_VLC):
         exit()
 
     try:
-        vlc_ruta_completa = shlex.split("E:\\VLC\\vlc.exe" + " " + lista_canciones, posix=False)
+        vlc_ruta_completa = shlex.split(RUTA_VLC + " " + lista_canciones, posix=False)
         vlc_en_path = subprocess.Popen(vlc_ruta_completa)
     except FileNotFoundError:
         print("El programa VLC no esta en la ruta C:\\Program Files (x86)\\VideoLAN\\VLC\\vlc.exe")
